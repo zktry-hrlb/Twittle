@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	background-image: url("../img/MainBackGround.png");
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+.ul-bar{
+	background-color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.header{
+	background-color: white;
+	background-image: url("../img/bottom_bar_background_long.png");
+	background-size: cover;
+}
+
+.logo{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+}
+
+.form-group{
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+.form-group ul{
+	padding-left: 0; 
+}
+
+.form-group li{
+	display: inline;
+}
+
+.form-group button{
+	padding: 5px 8px;
+}
+
+
+#list1{
+	margin-bottom: 0px;
+}
+
+#list1 i{
+	cursor: pointer;
+}
+
+.main-image img{
+	
+	padding-top: 20px;
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+}
+
+.main-image2 img{
+	
+	padding-top: 70px;
+	width: 70%;
+	height: 50%;
+	margin: 0 auto;
+}
+
+.entry{
+	background-image: url("../img/button.png");
+	background-position: 50% 50%;
+	background-size: cover;
+	color: #000;
+	border-radius: 20px;
+	width:65%;
+	margin: 0 auto;
+
+
+}
+
+.entry .inner{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: rgba(255,255,255,0.6);
+	margin-top:20px; 
+	border-radius: 20px;
+
+}
+
+
+
+.entry2{
+	background-image: url("../img/button.png");
+	background-position: 50% 50%;
+	background-size: cover;
+	color: #000;
+	border-radius: 20px;
+	width:85%;
+	margin: 0 auto;
+
+
+}
+
+.entry2 .inner2{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: rgba(255,255,255,0.6);
+	margin-top:20px; 
+	border-radius: 20px;
+
+}
+
+
+.vs
+{
+	margin: 0 auto;
+	text-align:center;
+	margin-top: 120px;
+}
+
+.VS-logo{
+	margin: 0 auto;
+	text-align:center;
+	margin-top: 170px;
+	margin-bottom: 170px;
+}
+
+/*.solo{
+	background-image: url("../img/MainBackGround.png");
+	background-size: cover;
+}*/
+

@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twittle</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mystyles.css">
+	<link rel="stylesheet" href="./css/validationEngine.jquery.css" type="text/css"/>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script type="text/javascript" src="./js/jquery.add-input-area.js"></script>
+	<script src="js/jquery.validationEngine.js"></script>
+	<script src="js/jquery.validationEngine-ja.js"></script>
+	<link rel="stylesheet" href="css/validationEngine.jquery.css">
+	<script>
+  	$(function(){
+    jQuery("#form_1").validationEngine();
+ 	 });
+	</script>
+    <style>
+    .main{
+    	background-image:url(./images/top_backimg.png)
+    }
+    
+    </style>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/vnd.microsoft.icon" />
+  	<link rel="icon" href="./img/favicon.png" type="image/vnd.microsoft.icon" />
+
+</head>
+<body>
+	<div class="main">
+		<div class="title">
+			<img src="./img/TOPLOGO.png" width="550px" height="200px">
+		</div>
+			<div class="container">
+			<div class="row">
+				<div class="cols">
+
+				<div class="col point1">
+				<div class="entry entry01">
+					<h2>ポイント1</h2>
+					<p>ワードで育つ"ワードラゴン"をあなたの気になっているワードで育ててみましょう。</p>
+					<p>ホットなワードほどワードラゴンは早く成長します。</p>
+				</div>
+				</div>
+
+				<div class="col point2">
+				<div class="entry entry02">
+					<h2>ポイント2</h2>
+					<p>気になるワードが2つあるなら，2体のワードラゴンを育ててみてはいかがでしょう？</p>
+					<p>どっちがホットなワードか分かりますよ。</p>
+				</div>
+				</div>
+
+				<div class="col point3">
+				<div class="entry entry03">
+					<h2>ポイント3</h2>
+					<p>ワードラゴンはエサとなるワードと強く関連したワードを見つけてきてくれます。</p>
+					<p>関連した理由を考えるのも面白いかもしれません。</p>
+				</div>
+				</div>
+
+				</div><!-- cols -->
+			</div><!-- row -->
+			</div>
+
+		<div class="container" style="padding:40px 20px">
+			
+			<form id="form_1" method="post" action="main.php">
+				<div class="form-group">
+					<label class="sr-only control-label" for="search">search</label>
+					<ol id="list1">
+						<li class="list1_var">
+						<input style="width : 300px;display: inline;" type="text" id="list1_0" class="form-control validate[required,custom[onlySpace]]" name="list1_0" placeholder="気になるワード">
+						<i style="display : inline: left;" class="list1_del glyphicon glyphicon-remove-sign"></i>
+						</li>
+																				
+					</ol>
+				</div>
+				<div class="form-group" style="padding 10px 50px">
+					<!-- <div class="dropdown">
+						<button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">
+	   					 期間
+	 					<span class="caret"></span>
+	  					</button>
+	  					<ul class="dropdown-menu">
+		    				<li><a data-value="1hour">1時間前</a></li>
+						    <li><a data-value="3hours">3時間前</a></li>
+						    <li><a data-value="today">24時間前</a></li>
+						    <li><a data-value="1week">72時間前</a></li>
+					 	 </ul>
+						  <input type="hidden" name="dropdown-value" value="">
+					</div> -->
+					<button type="button" class="btn btn-danger btn-lg list1_add" id="add_list1"><i class="glyphicon glyphicon-plus-sign"></i> 追加
+					</button>
+					<button type="submit" class="btn btn-primary btn-lg"><i class="glyphicon glyphicon-play"></i> 開始
+					</button>
+				</div>
+  			</form>
+  	 	</div>
+  	</div>
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
